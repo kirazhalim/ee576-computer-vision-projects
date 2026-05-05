@@ -24,7 +24,3 @@ make
 ```
 
 Run the generated executable from the relevant build directory. Some projects require omitted datasets or model files to be restored before execution.
-
-## Notes
-
-The repository includes source code, selected outputs, and final reports. Large RGB-D datasets, YOLO/ONNX model files, build outputs, course prompts, submission archives, and unrelated materials are not included.
