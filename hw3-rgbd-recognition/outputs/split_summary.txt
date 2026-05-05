@@ -1,0 +1,7 @@
+EE576 HW3 deterministic split
+Train ratio: 0.75
+Seed base: 5763
+
+bowl: train=435, test=145
+coffee_mug: train=411, test=137
+soda_can: train=471, test=157

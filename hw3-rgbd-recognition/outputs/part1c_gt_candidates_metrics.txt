@@ -1,0 +1,40 @@
+Diagnostic upper bound for Part 1.c. Parsed scene annotations are used only as candidate boxes, then recognition is still done with the object-trained BOW models. This separates segmentation failure from recognition failure and should be reported as an annotation-assisted analysis, not as the automatic segmentation result.
+
+Precision is plotted on Y-axis and Recall on X-axis.
+The best model is closest to the top-right corner (1,1).
+
+Class         Thr       TP      FP      FN      Precision   Recall      
+------------------------------------------------------------------------
+bowl          0.100     84      104     12      0.447       0.875       
+bowl          0.200     84      104     12      0.447       0.875       
+bowl          0.300     84      104     12      0.447       0.875       
+bowl          0.400     84      104     12      0.447       0.875       
+bowl          0.500     84      104     12      0.447       0.875       
+bowl          0.600     7       50      89      0.123       0.073       
+bowl          0.700     0       0       96      0.000       0.000       
+bowl          0.800     0       0       96      0.000       0.000       
+bowl          0.900     0       0       96      0.000       0.000       
+coffee_mug    0.100     8       48      81      0.143       0.090       
+coffee_mug    0.200     8       48      81      0.143       0.090       
+coffee_mug    0.300     8       48      81      0.143       0.090       
+coffee_mug    0.400     8       48      81      0.143       0.090       
+coffee_mug    0.500     8       48      81      0.143       0.090       
+coffee_mug    0.600     3       11      86      0.214       0.034       
+coffee_mug    0.700     0       1       89      0.000       0.000       
+coffee_mug    0.800     0       0       89      0.000       0.000       
+coffee_mug    0.900     0       0       89      0.000       0.000       
+soda_can      0.100     56      38      97      0.596       0.366       
+soda_can      0.200     56      38      97      0.596       0.366       
+soda_can      0.300     56      38      97      0.596       0.366       
+soda_can      0.400     56      38      97      0.596       0.366       
+soda_can      0.500     56      38      97      0.596       0.366       
+soda_can      0.600     31      13      122     0.705       0.203       
+soda_can      0.700     0       0       153     0.000       0.000       
+soda_can      0.800     0       0       153     0.000       0.000       
+soda_can      0.900     0       0       153     0.000       0.000       
+
+Distance to ideal point (1,1):
+bowl: 0.567
+coffee_mug: 1.245
+soda_can: 0.752
+Best class/model here: bowl

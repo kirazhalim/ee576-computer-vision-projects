@@ -1,0 +1,40 @@
+Average BOW descriptors with Chi-square histogram distance. Scores are 1/(1+distance). This follows the Lecture 8 precision/recall evaluation idea.
+
+Precision is plotted on Y-axis and Recall on X-axis.
+The best model is closest to the top-right corner (1,1).
+
+Class         Thr       TP      FP      FN      Precision   Recall      
+------------------------------------------------------------------------
+bowl          0.100     145     294     0       0.330       1.000       
+bowl          0.200     145     294     0       0.330       1.000       
+bowl          0.300     145     294     0       0.330       1.000       
+bowl          0.400     145     294     0       0.330       1.000       
+bowl          0.500     145     294     0       0.330       1.000       
+bowl          0.600     145     244     0       0.373       1.000       
+bowl          0.700     138     7       7       0.952       0.952       
+bowl          0.800     18      0       127     1.000       0.124       
+bowl          0.900     0       0       145     0.000       0.000       
+coffee_mug    0.100     137     302     0       0.312       1.000       
+coffee_mug    0.200     137     302     0       0.312       1.000       
+coffee_mug    0.300     137     302     0       0.312       1.000       
+coffee_mug    0.400     137     302     0       0.312       1.000       
+coffee_mug    0.500     137     302     0       0.312       1.000       
+coffee_mug    0.600     136     298     1       0.313       0.993       
+coffee_mug    0.700     40      30      97      0.571       0.292       
+coffee_mug    0.800     0       0       137     0.000       0.000       
+coffee_mug    0.900     0       0       137     0.000       0.000       
+soda_can      0.100     157     282     0       0.358       1.000       
+soda_can      0.200     157     282     0       0.358       1.000       
+soda_can      0.300     157     282     0       0.358       1.000       
+soda_can      0.400     157     282     0       0.358       1.000       
+soda_can      0.500     157     282     0       0.358       1.000       
+soda_can      0.600     157     257     0       0.379       1.000       
+soda_can      0.700     131     8       26      0.942       0.834       
+soda_can      0.800     2       0       155     1.000       0.013       
+soda_can      0.900     0       0       157     0.000       0.000       
+
+Distance to ideal point (1,1):
+bowl: 0.068
+coffee_mug: 0.687
+soda_can: 0.175
+Best class/model here: bowl

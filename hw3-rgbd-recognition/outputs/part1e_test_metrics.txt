@@ -1,0 +1,26 @@
+Part 1.e - Final test-set summary
+
+All runs use 75/25 split from split_summary.txt.
+The selected classical model is average BOW descriptor per class.
+Best/worst class is decided by closeness of the Precision-Recall curve to the ideal point (Recall=1, Precision=1).
+
+1.b BOW object images
+  bowl: distance_to_(1,1)=0.068
+  coffee_mug: distance_to_(1,1)=0.687
+  soda_can: distance_to_(1,1)=0.175
+
+1.c BOW scene images
+  bowl: distance_to_(1,1)=1.039
+  coffee_mug: distance_to_(1,1)=1.404
+  soda_can: distance_to_(1,1)=1.401
+
+1.d YOLO object images
+  bowl: distance_to_(1,1)=0.455
+  coffee_mug: distance_to_(1,1)=0.183
+  soda_can: distance_to_(1,1)=0.452
+
+1.d YOLO scene images
+  bowl: distance_to_(1,1)=0.796
+  coffee_mug: distance_to_(1,1)=0.410
+  soda_can: distance_to_(1,1)=0.673
+

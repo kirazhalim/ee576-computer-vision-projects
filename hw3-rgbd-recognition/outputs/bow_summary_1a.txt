@@ -1,0 +1,11 @@
+Part 1.a - BOW summary
+SIFT features per image: 250
+Max descriptors per image: 80
+Vocabulary size: 80
+Descriptor length: 128
+
+Rationale: SIFT keypoints are extracted inside the annotated object masks. OpenCV BOWKMeansTrainer constructs the visual vocabulary. Each class model is the average normalized BOW histogram of its training samples.
+
+bowl: train histograms=435
+coffee_mug: train histograms=411
+soda_can: train histograms=471

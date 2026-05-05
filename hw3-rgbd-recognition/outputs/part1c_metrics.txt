@@ -1,0 +1,40 @@
+Scene candidates are generated with thresholding, morphology, and connected components, consistent with Lectures 5 and 6. Candidates are then recognized with the BOW models.
+
+Precision is plotted on Y-axis and Recall on X-axis.
+The best model is closest to the top-right corner (1,1).
+
+Class         Thr       TP      FP      FN      Precision   Recall      
+------------------------------------------------------------------------
+bowl          0.100     54      890     42      0.057       0.562       
+bowl          0.200     54      890     42      0.057       0.562       
+bowl          0.300     54      890     42      0.057       0.562       
+bowl          0.400     54      890     42      0.057       0.562       
+bowl          0.500     54      890     42      0.057       0.562       
+bowl          0.600     12      408     84      0.029       0.125       
+bowl          0.700     0       228     96      0.000       0.000       
+bowl          0.800     0       0       96      0.000       0.000       
+bowl          0.900     0       0       96      0.000       0.000       
+coffee_mug    0.100     1       627     88      0.002       0.011       
+coffee_mug    0.200     1       627     88      0.002       0.011       
+coffee_mug    0.300     1       627     88      0.002       0.011       
+coffee_mug    0.400     1       627     88      0.002       0.011       
+coffee_mug    0.500     1       627     88      0.002       0.011       
+coffee_mug    0.600     1       263     88      0.004       0.011       
+coffee_mug    0.700     0       175     89      0.000       0.000       
+coffee_mug    0.800     0       0       89      0.000       0.000       
+coffee_mug    0.900     0       0       89      0.000       0.000       
+soda_can      0.100     2       346     151     0.006       0.013       
+soda_can      0.200     2       346     151     0.006       0.013       
+soda_can      0.300     2       346     151     0.006       0.013       
+soda_can      0.400     2       346     151     0.006       0.013       
+soda_can      0.500     2       346     151     0.006       0.013       
+soda_can      0.600     1       118     152     0.008       0.007       
+soda_can      0.700     0       61      153     0.000       0.000       
+soda_can      0.800     0       0       153     0.000       0.000       
+soda_can      0.900     0       0       153     0.000       0.000       
+
+Distance to ideal point (1,1):
+bowl: 1.039
+coffee_mug: 1.404
+soda_can: 1.401
+Best class/model here: bowl
