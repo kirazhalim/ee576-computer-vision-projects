@@ -1,20 +1,26 @@
-# EE576 Computer Vision Projects
+# EE576 Machine Vision Projects
 
-This repository collects C++/OpenCV computer vision coursework projects, including camera calibration, segmentation/object detection experiments, and RGB-D object/scene recognition.
+This repository contains three C++/OpenCV projects from my EE576 machine vision coursework. I worked on camera calibration, object segmentation, and RGB-D object/scene recognition.
+
+The repository includes 3 subprojects, CMake files, source code, selected images, reports, and result metrics. I kept the large datasets and model files out of the repository.
 
 ## Projects
 
-- `hw1-camera-calibration`: camera geometry, pseudo-inverse estimation, OpenCV matching, and result visualizations.
-- `hw2-object-segmentation`: C++/OpenCV project with sample images.
-- `hw3-rgbd-recognition`: RGB-D recognition pipeline with result metrics, PR curves, and plotting scripts.
+- `hw1-camera-calibration`: camera calibration and projection experiments.
+- `hw2-object-segmentation`: object segmentation with sample images.
+- `hw3-rgbd-recognition`: RGB-D object and scene recognition with BOW and YOLO-based experiments.
 
-## What Is Excluded
+## What I Did
 
-Large RGB-D datasets, build directories, virtual environments, archives, and YOLO/ONNX model files are excluded. The README files inside each original project describe the expected dataset/model placement when needed.
+- Implemented the main pipelines in C++ with OpenCV.
+- Used CMake for each subproject.
+- Added selected result images and precision-recall outputs.
+- Compared classical BOW descriptors and YOLO-based results in the RGB-D project.
+- Kept the final reports inside the related project folders.
 
-## Build Pattern
+## How to Build
 
-Each subproject follows the same basic CMake workflow:
+Each subproject follows a similar pattern:
 
 ```bash
 mkdir build
@@ -23,4 +29,4 @@ cmake ..
 make
 ```
 
-Run the generated executable from the relevant build directory. Some projects require omitted datasets or model files to be restored before execution.
+Some parts need external datasets or model files before running.
