@@ -1,14 +1,13 @@
 # EE576 Machine Vision Projects
 
-This repository contains three C++/OpenCV projects from my EE576 machine vision coursework. I worked on camera calibration, object segmentation, and RGB-D object/scene recognition.
-
-The repository includes 3 subprojects, CMake files, source code, selected images, reports, and result metrics. I kept the large datasets and model files out of the repository.
+This repository collects C++/OpenCV computer vision coursework projects, including camera calibration, segmentation/object detection experiments, RGB-D object/scene recognition, and optical flow.
 
 ## Projects
 
-- `hw1-camera-calibration`: camera calibration and projection experiments.
-- `hw2-object-segmentation`: object segmentation with sample images.
-- `hw3-rgbd-recognition`: RGB-D object and scene recognition with BOW and YOLO-based experiments.
+- `hw1-camera-calibration`: camera geometry, pseudo-inverse estimation, OpenCV matching, and result visualizations.
+- `hw2-object-segmentation`: C++/OpenCV project with sample images.
+- `hw3-rgbd-recognition`: RGB-D recognition pipeline with result metrics, PR curves, and plotting scripts.
+- `hw4-optical-flow`: dense optical flow, SIFT + Lucas-Kanade sparse tracking, moving-region masks, and flow comparison results.
 
 ## What I Did
 

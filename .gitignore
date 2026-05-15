@@ -35,6 +35,11 @@ mlruns/
 *.mat
 .dvc/cache/
 
+# Course datasets
+dataset/
+tum_freiburg3_sitting_static/
+kitchen/
+
 # FPGA / EDA generated files
 isim/
 _xmsgs/
@@ -61,4 +66,3 @@ _xmsgs/
 *.cache/
 *.hw/
 *.ip_user_files/
-

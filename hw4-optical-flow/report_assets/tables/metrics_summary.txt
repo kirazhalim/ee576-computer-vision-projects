@@ -1,0 +1,119 @@
+EE576 Project 4 - Selected Frame Metrics
+Abdulhalim Kiraz
+
+Frames 3 -> 4
+Dense masked regions: 3
+  Region 1 area=27353 avg=(-15.935, 10.037)
+  Region 2 area=30701 avg=(-19.167, 8.375)
+  Region 3 area=250 avg=(-18.168, 11.341)
+Sparse SIFT keypoints: frame1=250, frame2=250
+Sparse LK tracks: 120
+Orientation comparison count: 119
+Average cosine similarity: 0.995
+Average angle difference: 1.247 deg
+Masked region dense-sparse differences: 2
+  Region 1 tracks=8 dense=(-15.935, 10.037) sparse=(-18.718, 10.865) norm=2.904
+  Region 2 tracks=11 dense=(-19.167, 8.375) sparse=(-17.843, 15.320) norm=7.071
+
+Frames 45 -> 46
+Dense masked regions: 2
+  Region 1 area=16017 avg=(13.450, 2.210)
+  Region 2 area=55559 avg=(-7.766, 2.574)
+Sparse SIFT keypoints: frame1=250, frame2=250
+Sparse LK tracks: 120
+Orientation comparison count: 120
+Average cosine similarity: 0.988
+Average angle difference: 1.744 deg
+Masked region dense-sparse differences: 2
+  Region 1 tracks=5 dense=(13.450, 2.210) sparse=(12.716, 21.544) norm=19.348
+  Region 2 tracks=2 dense=(-7.766, 2.574) sparse=(-45.255, 4.560) norm=37.542
+
+Kitchen Dataset
+
+Frames 15 -> 16
+Dense motion regions: 22
+  Region 1 area=12969 avg=(4.856, -8.610)
+  Region 2 area=5278 avg=(25.090, -6.567)
+  Region 3 area=128 avg=(2.423, -0.933)
+  Region 8 area=12320 avg=(3.434, -9.488)
+  Region 9 area=80 avg=(-0.209, -0.375)
+  Region 10 area=2140 avg=(17.174, -10.269)
+  Region 11 area=333 avg=(-0.204, -0.430)
+  Region 12 area=14762 avg=(11.200, -11.070)
+  Region 13 area=4269 avg=(16.129, -10.577)
+  Region 14 area=941 avg=(1.456, -4.180)
+  Region 15 area=174 avg=(3.015, -1.768)
+  Region 16 area=719 avg=(0.026, -0.909)
+  Region 17 area=135 avg=(-0.131, -0.352)
+  Region 18 area=11364 avg=(6.774, -13.397)
+  Region 19 area=259 avg=(6.043, -4.687)
+  Region 21 area=128 avg=(2.531, -2.558)
+  Region 22 area=276 avg=(14.207, -11.892)
+  Region 23 area=86 avg=(19.840, -14.873)
+  Region 24 area=5006 avg=(12.051, -15.866)
+  Region 25 area=6256 avg=(16.789, -12.279)
+  Region 26 area=7193 avg=(0.850, -17.234)
+  Region 27 area=197 avg=(18.919, -19.944)
+Sparse SIFT keypoints: frame1=250, frame2=250
+Sparse LK tracks: 120
+Orientation comparison count: 114
+Average cosine similarity: 0.880
+Average angle difference: 14.233 deg
+Masked region dense-sparse differences: 11
+  Region 1 tracks=25 dense=(4.856, -8.610) sparse=(9.860, -15.091) norm=8.188
+  Region 2 tracks=16 dense=(25.090, -6.567) sparse=(-6.307, -8.291) norm=31.444
+  Region 8 tracks=17 dense=(3.434, -9.488) sparse=(-1.116, -10.384) norm=4.637
+  Region 10 tracks=2 dense=(17.174, -10.269) sparse=(25.644, -15.976) norm=10.213
+  Region 12 tracks=39 dense=(11.200, -11.070) sparse=(13.826, -13.202) norm=3.382
+  Region 13 tracks=14 dense=(16.129, -10.577) sparse=(22.433, -14.867) norm=7.626
+  Region 18 tracks=69 dense=(6.774, -13.397) sparse=(8.342, -17.409) norm=4.307
+  Region 24 tracks=18 dense=(12.051, -15.866) sparse=(18.923, -22.243) norm=9.375
+  Region 25 tracks=4 dense=(16.789, -12.279) sparse=(29.700, -13.867) norm=13.008
+  Region 26 tracks=8 dense=(0.850, -17.234) sparse=(1.774, -19.894) norm=2.816
+  Region 27 tracks=3 dense=(18.919, -19.944) sparse=(19.489, -21.242) norm=1.418
+
+Frames 89 -> 90
+Dense motion regions: 30
+  Region 1 area=69106 avg=(-8.181, 10.779)
+  Region 2 area=110 avg=(-9.081, 12.011)
+  Region 4 area=170 avg=(-4.020, 9.919)
+  Region 5 area=554 avg=(2.078, 5.594)
+  Region 7 area=4060 avg=(-1.883, 4.429)
+  Region 8 area=302 avg=(-15.381, 13.486)
+  Region 9 area=336 avg=(-2.483, 2.408)
+  Region 10 area=96 avg=(-1.073, 7.188)
+  Region 11 area=2062 avg=(-13.296, 10.547)
+  Region 12 area=106 avg=(-5.194, 8.549)
+  Region 14 area=682 avg=(-16.366, 12.861)
+  Region 16 area=190 avg=(-14.317, 9.771)
+  Region 17 area=95 avg=(-8.906, 4.791)
+  Region 18 area=146 avg=(-1.848, 2.670)
+  Region 20 area=187 avg=(-2.756, 2.442)
+  Region 22 area=165 avg=(-11.934, 8.607)
+  Region 23 area=733 avg=(-8.791, 5.509)
+  Region 24 area=249 avg=(-1.628, 0.891)
+  Region 25 area=260 avg=(-14.566, 11.006)
+  Region 27 area=83 avg=(-5.553, 2.715)
+  Region 28 area=3209 avg=(-1.721, -2.004)
+  Region 29 area=349 avg=(-1.309, -0.223)
+  Region 30 area=501 avg=(-13.580, 10.235)
+  Region 31 area=87 avg=(-8.226, 4.799)
+  Region 32 area=1182 avg=(-10.796, 7.849)
+  Region 33 area=1297 avg=(-4.636, 0.862)
+  Region 34 area=886 avg=(-6.621, 2.875)
+  Region 35 area=931 avg=(-5.817, 1.868)
+  Region 37 area=873 avg=(-2.541, -1.898)
+  Region 38 area=783 avg=(0.598, -4.306)
+Sparse SIFT keypoints: frame1=250, frame2=250
+Sparse LK tracks: 120
+Orientation comparison count: 120
+Average cosine similarity: 0.975
+Average angle difference: 3.522 deg
+Masked region dense-sparse differences: 7
+  Region 1 tracks=120 dense=(-8.181, 10.779) sparse=(-6.979, 9.591) norm=1.690
+  Region 7 tracks=8 dense=(-1.883, 4.429) sparse=(-2.248, 4.042) norm=0.531
+  Region 11 tracks=3 dense=(-13.296, 10.547) sparse=(-11.649, 8.965) norm=2.284
+  Region 27 tracks=3 dense=(-5.553, 2.715) sparse=(-5.425, 2.660) norm=0.139
+  Region 28 tracks=2 dense=(-1.721, -2.004) sparse=(-8.871, 2.576) norm=8.490
+  Region 29 tracks=7 dense=(-1.309, -0.223) sparse=(-1.568, 0.004) norm=0.344
+  Region 34 tracks=2 dense=(-6.621, 2.875) sparse=(-6.592, 2.793) norm=0.087
