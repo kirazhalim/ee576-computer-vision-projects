@@ -9,14 +9,6 @@ This repository collects C++/OpenCV computer vision coursework projects, includi
 - `hw3-rgbd-recognition`: RGB-D recognition pipeline with result metrics, PR curves, and plotting scripts.
 - `hw4-optical-flow`: dense optical flow, SIFT + Lucas-Kanade sparse tracking, moving-region masks, and flow comparison results.
 
-## What I Did
-
-- Implemented the main pipelines in C++ with OpenCV.
-- Used CMake for each subproject.
-- Added selected result images and precision-recall outputs.
-- Compared classical BOW descriptors and YOLO-based results in the RGB-D project.
-- Kept the final reports inside the related project folders.
-
 ## How to Build
 
 Each subproject follows a similar pattern:
